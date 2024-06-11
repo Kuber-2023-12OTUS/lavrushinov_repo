@@ -24,9 +24,6 @@ data:
             autoindex on;
             autoindex_format html;
         }
-          location /metrics.html {
-            alias /homework/metrics.html;
-          }
       }
     }
     

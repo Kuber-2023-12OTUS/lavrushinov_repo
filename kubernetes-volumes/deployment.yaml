@@ -24,7 +24,7 @@ spec:
       initContainers:
       - name: init-container
         image: busybox
-        command: ["/bin/sh", "-c", "echo 'fourth homework' > /init/index.html && wget -O /init/metrics.html http://192.168.100.8:9090/metrics"]
+        command: ["/bin/sh", "-c", "echo 'fifth homework' > /init/index.html && wget -O /init/metrics.html http://192.168.100.8:9090/metrics"]
         volumeMounts:
         - name: shared-volume
           mountPath: /init
