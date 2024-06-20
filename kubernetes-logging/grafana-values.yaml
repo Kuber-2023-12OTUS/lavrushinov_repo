@@ -5,4 +5,3 @@ tolerations:
     operator: "Equal"
     value: "infra"        
     effect: "NoSchedule"
-image.tag: 8.5.28
